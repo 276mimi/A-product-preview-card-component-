@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color:  hsl(30, 38%, 92%);
+   font-family: 'Montserrat', sans-serif; 
+}
+
+.maind {
+    padding: 2rem 1rem 2rem;
+}
+
+img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.img2 {
+    display: none;
+}
+
+.textd {
+    background-color:rgb(255, 255, 255);
+    padding: 1.5rem;
+    padding-top: 2rem;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+.perfume {
+    color: hsl(227, 34%, 21%);
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    color:  hsl(211, 25%, 17%);
+    font-size: 3.5rem;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.mainp {
+    margin-bottom: 2rem;
+    color: hsl(227, 34%, 21%);
+}
+
+.mainp, .perfume {
+    color: hsla(211, 25%, 17%, 0.7);
+}
+
+.money{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+strong {
+    font-size: 2.4rem;
+    color:  hsl(158, 36%, 37%);
+}
+
+span {
+    text-decoration: line-through;
+    margin-left: 1.5rem;
+    color: hsl(227, 34%, 21%);
+}
+
+button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1.4rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color:hsl(158, 36%, 37%);
+    color: white;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+}   
+
+button img {
+    width: 1.4rem;
+    display: inline;
+    position: relative;
+    top: 6px;
+    right: 4px;
+}
+
+@media screen and (min-width: 1025px) {
+
+     body {
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+
+   .maind {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 500px;
+    margin-top: 28vh;
+   }
+
+   .imaged {
+    width: 50%;
+   }
+   
+   .img1 {
+    display: none;
+   }
+
+   .img2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 7px 0 0 7px;
+   }
+
+   .textd {
+    width: 50%;
+    border-radius: 0 7px 7px 0;
+    background-color: #fff;
+   }
+
+   h1 {
+    font-size: 2rem;
+   }
+
+   .perfume {
+    font-size: 14px;
+   }
+
+   .mainp {
+    font-size: 14px;
+   }
+
+   .money {
+    font-size: 13px;
+    margin-top: -1rem;
+   }
+
+   strong {
+    font-size: 2rem;
+   }
+
+   span {
+    font-size: 14px;
+   }
+
+   button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.3rem;
+    padding-bottom: 1rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color:hsl(158, 36%, 37%);
+    color: white;
+    font-size: 1rem;
+    }
+}
